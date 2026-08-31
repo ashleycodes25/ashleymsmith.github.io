@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashley Smith - Portfolio</title>
+  <meta name="description" content="Ashley M. Smith — Themed Entertainment Project Management portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1 class="site-header__name">Ashley M. Smith</h1>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li>
+            <button type="button" class="site-nav__link is-active" data-target="home" aria-current="page">Home</button>
+          </li>
+          <li>
+            <button type="button" class="site-nav__link" data-target="projects">My Projects</button>
+          </li>
+          <li>
+            <button type="button" class="site-nav__link" data-target="contact">Contact Me</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ HOME PANEL (includes About Me, Skills, More About Me) ============ -->
+    <section id="home" class="panel is-active" data-panel="home" aria-labelledby="home-heading">
+
+      <h2 id="home-heading" class="panel__heading">About Me</h2>
+
+      <div class="about">
+        <figure class="about__photo-frame">
+          <img
+            class="about__photo"
+            src="Profile.jpg"
+            alt="Placeholder headshot of Ashley M. Smith — replace with a professional photo"
+            width="480"
+            height="480"
+            loading="lazy">
+        </figure>
+
+        <div class="about__content">
+          <p class="about__bio">
+            Hello! I am Ashley Smith, a current Disney College Program participant, computer 
+            science major at The University of Texas at Austin, and aspiring themed entertainment 
+            professional!
+          </p>
+          <p class="about__bio">
+            My experience stretches across multiple disciplines, including project management, 
+            computer science, park operations, and storytelling utilizing a variety of different 
+            mediums! Whether I am managing a team, bringing a themed experience to life, coding a 
+            new project, helping a Guest, singing in a choir, reading a book, dancing, or experiencing 
+            the new technology of a rollercoaster, I love being able to tell and appreciate stories 
+            through many different mediums.
+          </p>
+          <p class="about__bio">
+            I want to combine my passion for computer science, project management, park operations, 
+            and storytelling to be a leader in the themed entertainment industry.
+          </p>
+          <div class="about__actions">
+            <a class="button button--primary" href="#projects" data-target="projects">View my projects</a>
+            <a class="button button--secondary" href="Ashley M. Smith - Resume.pdf" download>Download resume</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider" role="presentation">
+        <span class="divider__label">Skills</span>
+      </div>
+
+      <div class="skills">
+        <ul class="skills__list">
+          <li class="skill-tag">Project Management</li>
+          <li class="skill-tag">Problem Solving</li>
+          <li class="skill-tag">Presentation Development & Delivery</li>
+          <li class="skill-tag">Team Leadership</li>
+          <li class="skill-tag">Public Speaking</li>
+          <li class="skill-tag">Microsoft Suite - Excel, Powerpoint, Word</li>
+          <li class="skill-tag">Programming - Java, Python, C, C++, C#</li>
+          <li class="skill-tag">Clear and Concise Communication through Writing</li>
+          <li class="skill-tag">Time Management</li>
+          <li class="skill-tag">Managing Team Communication</li>
+          <li class="skill-tag">Communication</li>
+          <li class="skill-tag">Conflict Resolution</li>
+          <li class="skill-tag">Translating Technical Knowledge</li>
+          <li class="skill-tag">Patience with Guests and Team Members</li>
+          <li class="skill-tag">Active Listening</li>
+        </ul>
+      </div>
+
+      <div class="divider" role="presentation"></div>
+
+      <div class="more-about-toggle-wrap">
+        <button type="button" class="more-about-toggle" id="moreAboutToggle" aria-expanded="false" aria-controls="moreAboutContent">
+          <span class="more-about-toggle__cursor" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 8 L9 20 L12 17 L14 21 L16 20 L14 16 L18 16 Z" />
+              <line x1="9" y1="2" x2="9" y2="4" />
+              <line x1="4" y1="5" x2="6" y2="7" />
+              <line x1="14" y1="5" x2="12" y2="7" />
+            </svg>
+          </span>
+          More About Me
+        </button>
+      </div>
+
+      <div class="more-about" id="moreAboutContent" hidden>
+        <ul class="media-grid">
+          <li class="media-grid__item">
+            <div class="media-grid__frame">
+              <img
+                class="media-grid__image"
+                src="IMG_4925.JPEG"
+                alt="Placeholder photo — replace with your own"
+                width="400"
+                height="400"
+                loading="lazy">
+            </div>
+            <p class="media-grid__caption">I love singing! One of my proudest accomplishments is making All State Choir in high school!</p>
+          </li>
+          <li class="media-grid__item">
+            <div class="media-grid__frame">
+              <img
+                class="media-grid__image"
+                src="IMG_0941.JPG"
+                alt="Placeholder photo — replace with your own"
+                width="400"
+                height="400"
+                loading="lazy">
+            </div>
+            <p class="media-grid__caption">I have been dancing ballet, tap, jazz, and lyrical for 15 years! My favorite ballet is The Nutcracker!</p>
+          </li>
+          <li class="media-grid__item">
+            <div class="media-grid__frame">
+              <img
+                class="media-grid__image"
+                src="IMG_0703.JPG"
+                alt="Placeholder photo — replace with your own"
+                width="400"
+                height="400"
+                loading="lazy">
+            </div>
+            <p class="media-grid__caption">I love reading and creative writing! I want to publish a book someday!</p>
+          </li>
+          <li class="media-grid__item">
+            <div class="media-grid__frame">
+              <img
+                class="media-grid__image media-grid__image--contain"
+                src="Untitled design.png"
+                alt="Placeholder photo — replace with your own"
+                width="400"
+                height="400"
+                loading="lazy">
+            </div>
+            <p class="media-grid__caption">I am a huge coaster enthusiast! I have done a behind-the-scenes tour of two Vekoma coasters (Circuit Breaker and Everest)!</p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- ============ PROJECTS PANEL ============ -->
+    <section id="projects" class="panel" data-panel="projects" aria-labelledby="projects-heading" hidden>
+
+      <h2 id="projects-heading" class="panel__heading">My Projects</h2>
+
+      <ul class="project-grid">
+        <li class="project-card">
+          <a class="project-card__frame" href="#project-1" data-target="project-1" data-nav="projects" aria-label="View details for Project title one">
+            <img
+              class="project-card__image"
+              src="Project_Cover.jpg"
+              alt="Placeholder image for Project One — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </a>
+          <h3 class="project-card__title">
+            <a class="project-card__title-link" href="#project-1" data-target="project-1" data-nav="projects">TxTPED Themed Escape Room - Who Wants To Be A Time Traveler?</a>
+          </h3>
+          <p class="project-card__desc">Served as Co-Puzzle Development Team Lead and on the Operations and Story teams to bring a themed point-based escape room to life at UT Austin.</p>
+          <a class="project-card__link" href="#project-1" data-target="project-1" data-nav="projects">View project details</a>
+        </li>
+
+        <li class="project-card">
+          <a class="project-card__frame" href="#project-2" data-target="project-2" data-nav="projects" aria-label="View details for Project title two">
+            <img
+              class="project-card__image"
+              src="Gate_Cover.PNG"
+              alt="Placeholder image for Project Two — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </a>
+          <h3 class="project-card__title">
+            <a class="project-card__title-link" href="#project-2" data-target="project-2" data-nav="projects">Ride Gate Controls System</a>
+          </h3>
+          <p class="project-card__desc">I worked with a team to develop mechanical, electrical, and software systems that worked together to make a functioning gate system for an attraction. Served as Team Lead for the software system.</p>
+          <a class="project-card__link" href="#project-2" data-target="project-2" data-nav="projects">View project details</a>
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- ============ PROJECT DETAIL PANELS ============ -->
+    <section id="project-1" class="panel" data-panel="project-1" aria-labelledby="project-1-heading" hidden>
+      <p style="margin-bottom: var(--space-md);">
+        <a class="button button--secondary" href="#projects" data-target="projects">&larr; Back to My Projects</a>
+      </p>
+      <p class="eyebrow">Project Details</p>
+      <h2 id="project-1-heading" class="panel__heading">TxTPED Themed Escape Room - Who Wants To Be A Time Traveler?</h2>
+      <p class="panel__intro">
+        Placeholder detailed description of Project One — what it was, your role on the team,
+        the scope and timeline, and the outcome or highlight worth calling out.
+      </p>
+
+      <ul class="media-grid media-grid--gallery">
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+One+Detail+1"
+              alt="Placeholder detail image for Project One — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+One+Detail+2"
+              alt="Placeholder detail image for Project One — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+One+Detail+3"
+              alt="Placeholder detail image for Project One — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+      </ul>
+
+      <div class="divider" role="presentation">
+        <span class="divider__label">Skills Used</span>
+      </div>
+
+      <div class="skills">
+        <ul class="skills__list">
+          <li class="skill-tag">Placeholder Skill One</li>
+          <li class="skill-tag">Placeholder Skill Two</li>
+          <li class="skill-tag">Placeholder Skill Three</li>
+        </ul>
+      </div>
+
+      <p style="margin-top: var(--space-lg);">
+        <a class="button button--secondary" href="#projects" data-target="projects">&larr; Back to My Projects</a>
+      </p>
+    </section>
+
+    <section id="project-2" class="panel" data-panel="project-2" aria-labelledby="project-2-heading" hidden>
+      <p style="margin-bottom: var(--space-md);">
+        <a class="button button--secondary" href="#projects" data-target="projects">&larr; Back to My Projects</a>
+      </p>
+      <p class="eyebrow">Project Details</p>
+      <h2 id="project-2-heading" class="panel__heading">Project title two</h2>
+      <p class="panel__intro">
+        Placeholder detailed description of Project Two — what it was, your role on the team,
+        the scope and timeline, and the outcome or highlight worth calling out.
+      </p>
+
+      <ul class="media-grid media-grid--gallery">
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+Two+Detail+1"
+              alt="Placeholder detail image for Project Two — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+Two+Detail+2"
+              alt="Placeholder detail image for Project Two — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+        <li class="media-grid__item">
+          <div class="media-grid__frame">
+            <img
+              class="media-grid__image"
+              src="https://placehold.co/640x480/1B1C22/FAFAF8?text=Project+Two+Detail+3"
+              alt="Placeholder detail image for Project Two — replace with real project photo"
+              width="640"
+              height="480"
+              loading="lazy">
+          </div>
+          <p class="media-grid__caption">Placeholder caption describing this image.</p>
+        </li>
+      </ul>
+
+      <div class="divider" role="presentation">
+        <span class="divider__label">Skills Used</span>
+      </div>
+
+      <div class="skills">
+        <ul class="skills__list">
+          <li class="skill-tag">Placeholder Skill One</li>
+          <li class="skill-tag">Placeholder Skill Two</li>
+          <li class="skill-tag">Placeholder Skill Three</li>
+        </ul>
+      </div>
+
+      <p style="margin-top: var(--space-lg);">
+        <a class="button button--secondary" href="#projects" data-target="projects">&larr; Back to My Projects</a>
+      </p>
+    </section>
+
+    <!-- ============ CONTACT PANEL ============ -->
+    <section id="contact" class="panel" data-panel="contact" aria-labelledby="contact-heading" hidden>
+
+      <h2 id="contact-heading" class="panel__heading">Let's Connect!</h2>
+
+      <div class="contact-card">
+        <ul class="contact-card__list">
+          <li class="contact-card__item">
+            <span class="contact-card__label">Phone</span>
+            <a class="contact-card__value" href="tel:+13463720652">(346) 372-0652</a>
+          </li>
+          <li class="contact-card__item">
+            <span class="contact-card__label">Email</span>
+            <a class="contact-card__value" href="mailto:ashleymsmith2526@gmail.com">ashleymsmith2526@gmail.com</a>
+          </li>
+          <li class="contact-card__item">
+            <span class="contact-card__label">LinkedIn</span>
+            <a class="contact-card__value" href="https://www.linkedin.com/in/ashleysmith25/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ashleysmith25</a>
+          </li>
+          <li class="contact-card__item">
+            <span class="contact-card__label">GitHub</span>
+            <a class="contact-card__value" href="https://github.com/ashleycodes25" target="_blank" rel="noopener noreferrer">github.com/ashleycodes25</a>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+
+      <div class="site-footer__block">
+        <span class="site-footer__label">Phone</span>
+        <a class="site-footer__value" href="tel:+13463720652">(346) 372-0652</a>
+      </div>
+
+      <div class="site-footer__block">
+        <span class="site-footer__label">Email</span>
+        <a class="site-footer__value" href="mailto:ashleymsmith2526@gmail.com">ashleymsmith2526@gmail.com</a>
+      </div>
+
+      <div class="site-footer__block site-footer__block--social">
+        <span class="site-footer__label">Find me</span>
+        <ul class="social-list">
+          <li>
+            <a class="social-list__link" href="https://www.linkedin.com/in/ashleysmith25/" target="_blank" rel="noopener noreferrer" aria-label="Ashley M. Smith on LinkedIn">
+              <img src="linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp" alt="" width="48" height="48" loading="lazy">
+            </a>
+          </li>
+          <li>
+            <a class="social-list__link" href="https://github.com/ashleycodes25" target="_blank" rel="noopener noreferrer" aria-label="Ashley M. Smith on GitHub">
+              <img src="github_logo_icon_229278.webp" alt="" width="48" height="48" loading="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="site-footer__copyright">&copy; <span id="year"></span> Ashley M. Smith. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function () {
+      var navLinks = document.querySelectorAll('.site-nav__link');
+      var panels = document.querySelectorAll('.panel');
+      var navTargets = document.querySelectorAll('[data-target]');
+
+      // targetId = which panel to show. navId = which top-nav button should
+      // light up (defaults to targetId; project-detail links pass "projects"
+      // via data-nav so "My Projects" stays highlighted while on a detail page).
+      function showPanel(targetId, navId) {
+        navId = navId || targetId;
+
+        panels.forEach(function (panel) {
+          var isMatch = panel.dataset.panel === targetId;
+          panel.hidden = !isMatch;
+          panel.classList.toggle('is-active', isMatch);
+        });
+
+        navLinks.forEach(function (link) {
+          var isMatch = link.dataset.target === navId;
+          link.classList.toggle('is-active', isMatch);
+          if (isMatch) {
+            link.setAttribute('aria-current', 'page');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+
+        window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+      }
+
+      // Any element with a data-target attribute — top nav buttons, the hero
+      // "View my projects" button, project card images/titles/links, and the
+      // "Back to My Projects" buttons — all navigate the same way.
+      navTargets.forEach(function (el) {
+        el.addEventListener('click', function (event) {
+          if (el.tagName === 'A') {
+            event.preventDefault();
+          }
+          showPanel(el.dataset.target, el.dataset.nav);
+        });
+      });
+
+      var yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // "More About Me" drop-down toggle
+      var moreAboutToggle = document.getElementById('moreAboutToggle');
+      var moreAboutContent = document.getElementById('moreAboutContent');
+      if (moreAboutToggle && moreAboutContent) {
+        moreAboutToggle.addEventListener('click', function () {
+          var willOpen = moreAboutContent.hidden;
+          moreAboutContent.hidden = !willOpen;
+          moreAboutToggle.setAttribute('aria-expanded', String(willOpen));
+          moreAboutToggle.classList.toggle('is-open', willOpen);
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
