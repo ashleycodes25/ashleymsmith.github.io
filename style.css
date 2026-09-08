@@ -229,6 +229,18 @@ main {
   margin-bottom: var(--space-lg);
 }
 
+.panel__intro a {
+  color: var(--color-pink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.panel__intro a:hover {
+  color: var(--color-pink-dark);
+  border-color: var(--color-pink-dark);
+}
+
 /* ---------- 5. HOME / HERO ---------- */
 .hero {
   max-width: 68ch;
