@@ -224,7 +224,6 @@ main {
 }
 
 .panel__intro {
-  max-width: 60ch;
   color: var(--color-ink-muted);
   margin-bottom: var(--space-lg);
 }
@@ -648,7 +647,7 @@ main {
 /* Looser grid used for project-detail galleries, which may hold a
    different number of images than the fixed 1x4 "More About Me" grid */
 .media-grid--gallery {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
 }
 
 .media-grid__item {
@@ -684,7 +683,7 @@ main {
 .media-grid__image {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
 }
 
